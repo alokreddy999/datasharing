@@ -190,3 +190,36 @@ Contributors
 * [Nick Horton](https://www.amherst.edu/people/facstaff/nhorton) - Minor wording suggestions.
 
 
+
+AI Demo: Naive Bayes Spam Classifier
+====================
+
+This repository includes a short example script demonstrating a basic use case of AI for text classification.
+The script lives in `ai_demo/spam_classifier.py` and implements a tiny Naive Bayes model from scratch.
+You can train the model on a few example messages and interactively predict whether new messages are spam or not.
+
+### Running the demo
+
+```
+python3 ai_demo/spam_classifier.py
+```
+
+The script will prompt you to enter a message. Type any text and press <enter> to see whether the classifier predicts `spam` or `ham`.
+Press <enter> on an empty line to exit.
+
+### Sharing a short demo on LinkedIn
+
+To showcase this on LinkedIn, run the script while recording your screen (for example with your operating system's built-in recorder).
+Demonstrate entering a couple of messages and highlight how the AI instantly labels them.
+Upload the short video clip to LinkedIn with a brief description of how you built this simple AI solution.
+
+### Checking messages from an iPhone
+
+Run a local web server to classify messages and access it from your iPhone:
+
+```
+python3 ai_demo/iphone_spam_detector.py
+```
+
+Open `http://<computer-ip>:8000` in your iPhone browser and enter a message to see whether it
+is predicted as `spam` or `ham`.
