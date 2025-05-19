@@ -190,3 +190,9 @@ Contributors
 * [Nick Horton](https://www.amherst.edu/people/facstaff/nhorton) - Minor wording suggestions.
 
 
+
+AI Demo: Naive Bayes Spam Classifier
+====================
+
+`ai_demo/spam_classifier.py` demonstrates a minimal AI solution for detecting spam messages.
+The script trains a small Naive Bayes model on example data and can predict whether new text is `spam` or `ham`.
